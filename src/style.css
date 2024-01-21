@@ -1,0 +1,28 @@
+* {
+    cursor:crosshair;
+}
+
+a {
+    cursor:pointer;
+}
+
+a:focus {
+    cursor:progress;
+}
+
+.card {
+    box-shadow: 5px 5px 10px 10px grey;
+    width:600px;
+}
+
+iframe {
+    box-shadow: 5px 5px 8px 8px grey;
+}
+
+img {
+    box-shadow: 5px 5px 8px 8px grey;
+}
+
+a > img {
+    cursor:pointer;
+}
